@@ -15,6 +15,6 @@
 
 ------
 
-![Snipaste_2019-10-01_14-31-29](.sereenshots\Snipaste_2019-10-01_14-31-29.png)
-![Snipaste_2019-10-01_14-33-16](.sereenshots\Snipaste_2019-10-01_14-33-16.png)
-![Snipaste_2019-10-01_14-47-17](.sereenshots\Snipaste_2019-10-01_14-47-17.png)
+![Snipaste_2019-10-01_14-31-29](./sereenshots/Snipaste_2019-10-01_14-31-29.png)
+![Snipaste_2019-10-01_14-33-16](./sereenshots/Snipaste_2019-10-01_14-33-16.png)
+![Snipaste_2019-10-01_14-47-17](./sereenshots/Snipaste_2019-10-01_14-47-17.png)
