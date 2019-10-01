@@ -24,8 +24,9 @@ jz_position = [
       [550,1330],
       [800,1200]]
 
+#滑动次数统计
 n = 0
-def swip(lb,lb2):
+def swip(position_hc,position_jz):
     '''
     滑动屏幕函数
     
@@ -34,29 +35,27 @@ def swip(lb,lb2):
     T = 4
     
     while T>0:
+        #坐标移动
         k = 0
         for j in range(3):
             subprocess.Popen(
                     'adb shell input swipe {} {} {} {}'.format(
-                                                                lb[0],
-                                                                lb[1],
-                                                                lb2[0],
-                                                                lb2[1]-k),
-                    shell=True)
+                                                                position_hc[0],position_hc[1],
+                                                                position_jz[0],position_jz[1]-k),
+                                                                shell=True)
             n+=1   
             print(f'----------------->滑动{n}次.',end='\r')
+            #滑动速度调节越小越快，调得太快手机卡死别怪我
             time.sleep(0.3)
             k+=300
         T-=1
-        #滑动速度调节越小越快，调得太快手机卡死别怪我
-    
         
+    
 if __name__ == "__main__":
     
     while True:
         for h in range(3):
             for e in range(3):
-                
                 swip(hc_position[h],jz_position[e])
                 #time.sleep(0.5)
         print('_____已完成一次108次的循环_________')

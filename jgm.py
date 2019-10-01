@@ -19,4 +19,4 @@ while 1:
   i+=1
   s=' ____________________________滑动完成{}次！'
   print(s.format(i),end='\r')
-  time.sleep(10)
+  time.sleep(2)

@@ -5,6 +5,8 @@ Created on Sun Sep 29 11:37:26 2019
 @author: Ataft7
 
 程序功能：《家国梦》自动刷金币脚本
+
+废弃！！！
 """
 
 import time
