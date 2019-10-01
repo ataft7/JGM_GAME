@@ -11,7 +11,7 @@
 
 ## 3.欢迎star和pull requests.
 
-## 4.没有火车货物是使用 jgm.py
+## 4.没有火车货物时使用 jgm.py
 
 ------
 
